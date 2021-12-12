@@ -19,6 +19,7 @@ class CreateVaccinesTable extends Migration
             $table->string('price');
             $table->string('description');
             $table->string('image');
+            $table->timestamps();
         });
     }
 
